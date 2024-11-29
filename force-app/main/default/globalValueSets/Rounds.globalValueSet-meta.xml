@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>1</label>
+    </customValue>
+    <customValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>2</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>3</label>
+    </customValue>
+    <customValue>
+        <fullName>Round of 16</fullName>
+        <default>false</default>
+        <label>Round of 16</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarter Finals</fullName>
+        <default>false</default>
+        <label>Quarter Finals</label>
+    </customValue>
+    <customValue>
+        <fullName>Semi Finals</fullName>
+        <default>false</default>
+        <label>Semi Finals</label>
+    </customValue>
+    <customValue>
+        <fullName>Finals</fullName>
+        <default>false</default>
+        <label>Finals</label>
+    </customValue>
+    <masterLabel>Rounds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

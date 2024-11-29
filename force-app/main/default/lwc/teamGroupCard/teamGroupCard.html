@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Groups">
+        <template lwc:if={tournamentId}>
+            <template for:each={standingGroups} for:item="standingGroup">
+                <div key={standingGroup.group}>
+                    <c-custom-group-table-card group={standingGroup}></c-custom-group-table-card>
+                </div>
+            </template>
+        <div slot="footer">
+            <c-group-legend></c-group-legend>
+        </div>
+        </template>
+        <template lwc:else>
+            <c-empty-tournament-message></c-empty-tournament-message>
+        </template>
+    </lightning-card>
+</template>

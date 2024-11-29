@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Match_Score</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+  ISBLANK(Home_Score__c) &lt;&gt; ISBLANK(Away_Score__c),
+
+  AND(
+    NOT(ISBLANK(Home_Score__c)),
+    NOT(ISBLANK(Away_Score__c)),
+    Home_Score__c == Away_Score__c,
+    ISBLANK(Group__c) 
+  )
+)</errorConditionFormula>
+    <errorMessage>Both Home Team and Away Team scores should be set</errorMessage>
+</ValidationRule>

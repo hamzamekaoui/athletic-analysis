@@ -1,0 +1,364 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "ARG"
+            },
+            "Name": "Argentina",
+            "Code__c": "AR",
+            "Flag__c": "https://flagcdn.com/ar.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "BRA"
+            },
+            "Name": "Brazil",
+            "Code__c": "BR",
+            "Flag__c": "https://flagcdn.com/br.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "FR"
+            },
+            "Name": "France",
+            "Code__c": "FR",
+            "Flag__c": "https://flagcdn.com/fr.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "DE"
+            },
+            "Name": "Germany",
+            "Code__c": "DE",
+            "Flag__c": "https://flagcdn.com/de.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "ES"
+            },
+            "Name": "Spain",
+            "Code__c": "ES",
+            "Flag__c": "https://flagcdn.com/es.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "PT"
+            },
+            "Name": "Portugal",
+            "Code__c": "PT",
+            "Flag__c": "https://flagcdn.com/pt.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "GB"
+            },
+            "Name": "England",
+            "Code__c": "GB",
+            "Flag__c": "https://flagcdn.com/gb.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "BE"
+            },
+            "Name": "Belgium",
+            "Code__c": "BE",
+            "Flag__c": "https://flagcdn.com/be.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "NL"
+            },
+            "Name": "Netherlands",
+            "Code__c": "NL",
+            "Flag__c": "https://flagcdn.com/nl.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "IT"
+            },
+            "Name": "Italy",
+            "Code__c": "IT",
+            "Flag__c": "https://flagcdn.com/it.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "HR"
+            },
+            "Name": "Croatia",
+            "Code__c": "HR",
+            "Flag__c": "https://flagcdn.com/hr.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "DK"
+            },
+            "Name": "Denmark",
+            "Code__c": "DK",
+            "Flag__c": "https://flagcdn.com/dk.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "UY"
+            },
+            "Name": "Uruguay",
+            "Code__c": "UY",
+            "Flag__c": "https://flagcdn.com/uy.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CH"
+            },
+            "Name": "Switzerland",
+            "Code__c": "CH",
+            "Flag__c": "https://flagcdn.com/ch.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "US"
+            },
+            "Name": "United States",
+            "Code__c": "US",
+            "Flag__c": "https://flagcdn.com/us.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "MX"
+            },
+            "Name": "Mexico",
+            "Code__c": "MX",
+            "Flag__c": "https://flagcdn.com/mx.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "PL"
+            },
+            "Name": "Poland",
+            "Code__c": "PL",
+            "Flag__c": "https://flagcdn.com/pl.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "RS"
+            },
+            "Name": "Serbia",
+            "Code__c": "RS",
+            "Flag__c": "https://flagcdn.com/rs.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "SE"
+            },
+            "Name": "Sweden",
+            "Code__c": "SE",
+            "Flag__c": "https://flagcdn.com/se.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "UA"
+            },
+            "Name": "Ukraine",
+            "Code__c": "UA",
+            "Flag__c": "https://flagcdn.com/ua.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CZ"
+            },
+            "Name": "Czech Republic",
+            "Code__c": "CZ",
+            "Flag__c": "https://flagcdn.com/cz.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "AT"
+            },
+            "Name": "Austria",
+            "Code__c": "AT",
+            "Flag__c": "https://flagcdn.com/at.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "HU"
+            },
+            "Name": "Hungary",
+            "Code__c": "HU",
+            "Flag__c": "https://flagcdn.com/hu.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "TR"
+            },
+            "Name": "Turkey",
+            "Code__c": "TR",
+            "Flag__c": "https://flagcdn.com/tr.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "RO"
+            },
+            "Name": "Romania",
+            "Code__c": "RO",
+            "Flag__c": "https://flagcdn.com/ro.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CO"
+            },
+            "Name": "Colombia",
+            "Code__c": "CO",
+            "Flag__c": "https://flagcdn.com/co.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CL"
+            },
+            "Name": "Chile",
+            "Code__c": "CL",
+            "Flag__c": "https://flagcdn.com/cl.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "EC"
+            },
+            "Name": "Ecuador",
+            "Code__c": "EC",
+            "Flag__c": "https://flagcdn.com/ec.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "PE"
+            },
+            "Name": "Peru",
+            "Code__c": "PE",
+            "Flag__c": "https://flagcdn.com/pe.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "JP"
+            },
+            "Name": "Japan",
+            "Code__c": "JP",
+            "Flag__c": "https://flagcdn.com/jp.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "KR"
+            },
+            "Name": "South Korea",
+            "Code__c": "KR",
+            "Flag__c": "https://flagcdn.com/kr.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "AU"
+            },
+            "Name": "Australia",
+            "Code__c": "AU",
+            "Flag__c": "https://flagcdn.com/au.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "IR"
+            },
+            "Name": "Iran",
+            "Code__c": "IR",
+            "Flag__c": "https://flagcdn.com/ir.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "MA"
+            },
+            "Name": "Morocco",
+            "Code__c": "MA",
+            "Flag__c": "https://flagcdn.com/ma.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "SN"
+            },
+            "Name": "Senegal",
+            "Code__c": "SN",
+            "Flag__c": "https://flagcdn.com/sn.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "NG"
+            },
+            "Name": "Nigeria",
+            "Code__c": "NG",
+            "Flag__c": "https://flagcdn.com/ng.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CM"
+            },
+            "Name": "Cameroon",
+            "Code__c": "CM",
+            "Flag__c": "https://flagcdn.com/cm.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "EG"
+            },
+            "Name": "Egypt",
+            "Code__c": "EG",
+            "Flag__c": "https://flagcdn.com/eg.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "TN"
+            },
+            "Name": "Tunisia",
+            "Code__c": "TN",
+            "Flag__c": "https://flagcdn.com/tn.svg"
+        },
+        {
+            "attributes": {
+                "type": "Team__c",
+                "referenceId": "CA"
+            },
+            "Name": "Canada",
+            "Code__c": "CA",
+            "Flag__c": "https://flagcdn.com/ca.svg"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Match_Teams</fullName>
+    <active>true</active>
+    <description>Prevent the score of one team from being empty if the other&apos;s team score is set.</description>
+    <errorConditionFormula>ISBLANK(Home_Team__c) &lt;&gt; ISBLANK(Away_Team__c)</errorConditionFormula>
+    <errorMessage>Both Team and Away Team should be set</errorMessage>
+</ValidationRule>

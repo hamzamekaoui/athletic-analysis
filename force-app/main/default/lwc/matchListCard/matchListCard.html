@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title={title}>
+        <template lwc:if={isEmpty}>
+            <div class="slds-align_absolute-center slds-var-p-around_xx-small">
+                <span>{emptyMessage}</span>
+            </div>
+        </template>
+        <template lwc:else>
+            <div class="slds-grid slds-grid_vertical">
+                <template for:each={matches} for:item="match">
+                    <c-match-card key={match.Id} match={match}></c-match-card>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

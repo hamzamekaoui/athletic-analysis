@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Matches">
+        <template lwc:if={tournamentId}>
+            <hr>
+            <template lwc:if={recentMatchesResponse}>
+                <c-match-list-card title={recentMatches.title} matches={recentMatches.matches} empty-message={recentMatches.emptyMessage}></c-match-list-card>
+            </template>
+            <template lwc:if={upcomingMatchesResponse}>
+                <c-match-list-card title={upcomingMatches.title} matches={upcomingMatches.matches} empty-message={upcomingMatches.emptyMessage}></c-match-list-card>
+            </template>
+        </template>
+        <template lwc:else>
+            <c-empty-tournament-message></c-empty-tournament-message>
+        </template>
+    </lightning-card>
+</template>

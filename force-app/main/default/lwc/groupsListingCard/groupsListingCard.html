@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Groups">
+        <template lwc:if={standingGroups}>
+            <div class="slds-var-p-around_medium">
+                <div class="slds-grid slds-gutters slds-wrap">
+                    <template for:each={standingGroups} for:item="standingGroup">
+                        <div key={standingGroup.group} class="c-group-container slds-size_1-of-2">
+                            <c-custom-group-table-card group={standingGroup}></c-custom-group-table-card>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>
+        <div slot="footer">
+            <c-group-legend></c-group-legend>
+        </div>
+    </lightning-card>
+</template>

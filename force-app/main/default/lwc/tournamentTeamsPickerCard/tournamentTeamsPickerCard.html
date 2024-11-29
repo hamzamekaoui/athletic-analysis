@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Teams">
+        <span class="slds-var-p-horizontal_medium">Please select {maxCount} teams to participate in the tournament:</span>
+        <div class="slds-scrollable_y slds-var-m-around_medium" style="max-height:27rem">
+            <lightning-datatable
+                key-field="Id"
+                data={teams}
+                columns={columns}
+                onrowselection={handleRowSelection}
+                resize-column-disabled
+                max-row-selection={maxCount}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={group.name}>
+        <div class="slds-box slds-theme_shade slds-var-m-around_small">
+            <c-group-data-types 
+                key-field="Id"
+                columns={columns}
+                data={data}
+                show-row-number-column
+                hide-checkbox-column
+                resize-column-disabled
+                column-widths-mode="data">
+            </c-group-data-types>
+        </div>
+    </lightning-card>
+</template>

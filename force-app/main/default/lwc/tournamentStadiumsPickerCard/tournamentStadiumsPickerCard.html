@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Stadiums">
+        <span class="slds-var-p-horizontal_medium">Please select at least {maxCount} stadiums where the matches will be played:</span>
+        <div class="slds-scrollable_y slds-var-m-around_medium" style="max-height:27rem">
+            <lightning-datatable
+                key-field="Id"
+                data={stadiums}
+                columns={columns}
+                onrowselection={handleRowSelection}
+                resize-column-disabled>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

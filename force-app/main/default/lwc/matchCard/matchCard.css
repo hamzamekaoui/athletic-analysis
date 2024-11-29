@@ -1,0 +1,8 @@
+.match {
+    min-width: 190px; 
+    cursor: pointer;
+}
+
+.final {
+    background-color: #ff6756;
+}

@@ -1,0 +1,18 @@
+<template>
+  <lightning-card title="Knockout">
+    <div class="slds-grid slds-grid_align-space slds-var-p-around_medium slds-scrollable_x">
+      <template lwc:if={isKnockoutValid}>
+        <template for:each={matchesByRound} for:item="round">
+          <div key={round.name} class="bracket slds-grid slds-grid_vertical slds-grid_align-space">
+            <template for:each={round.matches} for:item="match">
+              <c-match-card key={match} match={match}></c-match-card>
+            </template>
+          </div>
+        </template>
+      </template>
+      <template lwc:else>
+        <span>No Knockout round matches found</span>
+    </template>
+    </div>
+  </lightning-card>
+</template>

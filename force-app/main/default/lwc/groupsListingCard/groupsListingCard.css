@@ -1,0 +1,9 @@
+.c-group-container {
+    min-width: 590px;
+}
+
+@media (max-width: 1230px) {
+    .c-group-container {
+        min-width: 100%;
+    }
+}

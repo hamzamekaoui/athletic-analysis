@@ -1,0 +1,39 @@
+<template>
+    <lightning-card>
+        <div onclick={handleClick} class={style}>
+            <div>
+                <span>{match.round}</span>
+            </div>
+            <div class="slds-grid slds-align_absolute-center slds-var-p-vertical_x-small">
+                <template lwc:if={isHomeTeamSet}>
+                    <c-team-with-flag flag={match.homeFlag} code={match.homeCode} flag-to-right=true></c-team-with-flag>
+                </template>
+                <template lwc:else>
+                    <span><b>{matchHolder}</b></span>
+                </template>
+                <div class="slds-var-p-top_xxx-small slds-var-p-horizontal_x-small slds-align_absolute-center" style="min-width: 70px;">
+                    <template lwc:if={score}>
+                        <b>{score}</b>
+                    </template>
+                    <template lwc:else>
+                        <div class="slds-grid slds-grid_vertical slds-align_absolute-center slds-var-p-horizontal_x-small">
+                            <b><lightning-formatted-date-time value={match.matchTime} month="short" day="2-digit"></lightning-formatted-date-time></b>
+                            <b><lightning-formatted-date-time value={match.matchTime} hour="2-digit" minute="2-digit" hour12=false></lightning-formatted-date-time></b>
+                        </div>
+                    </template>
+                </div>
+                <div class="slds-var-m-right_xxx-small">
+                    <template lwc:if={isAwayTeamSet}>
+                        <c-team-with-flag flag={match.awayFlag} code={match.awayCode}></c-team-with-flag>
+                    </template>
+                    <template lwc:else>
+                        <span><b>{matchHolder}</b></span>
+                    </template>
+                </div>
+            </div>
+            <div>
+                <span>{match.stadium}</span>
+            </div>
+        </div>
+    </lightning-card>
+</template>

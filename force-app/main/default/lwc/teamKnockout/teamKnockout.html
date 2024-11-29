@@ -1,0 +1,10 @@
+<template>
+  <template lwc:if={tournamentId}>
+    <c-knockout-tree-card matches-by-round={matchesByRound}></c-knockout-tree-card>
+  </template>
+  <template lwc:else>
+    <lightning-card title="Knockout">
+      <c-empty-tournament-message></c-empty-tournament-message>
+    </lightning-card>  
+  </template>
+</template>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isExposed>false</isExposed>
+    <lightningMessageFields>
+        <description>Channel to share properties across LWC</description>
+        <fieldName>tournamentId</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Sharing Channel</masterLabel>
+</LightningMessageChannel>

@@ -1,0 +1,68 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "ABS"
+            },
+            "Name": "Al Bayt Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "KIS"
+            },
+            "Name": "Khalifa International Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "ATS"
+            },
+            "Name": "Al Thumama Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "ABAS"
+            },
+            "Name": "Ahmad Bin Ali Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "LS"
+            },
+            "Name": "Lusail Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "ECS"
+            },
+            "Name": "Education City Stadium",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "S9"
+            },
+            "Name": "Stadium 974",
+            "Country__c": "Qatar"
+        },
+        {
+            "attributes": {
+                "type": "Stadium__c",
+                "referenceId": "AJS"
+            },
+            "Name": "Al Janoub Stadium",
+            "Country__c": "Qatar"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Groups">
+      <span class="slds-var-p-horizontal_medium">Please assign all the teams to their groups:</span>
+      <div class="slds-var-p-horizontal_medium">
+        <lightning-tabset>
+          <template for:each={groups} for:item="group">
+              <lightning-tab key={group.name} label={group.name}>
+                <lightning-dual-listbox
+                  name={group.name}
+                  source-label="Available Teams"
+                  selected-label="Selected Teams"
+                  options={group.availableOptions}
+                  value={group.selectedValues}
+                  max=4
+                  onchange={handleChange}>
+                </lightning-dual-listbox>
+              </lightning-tab>
+          </template>
+        </lightning-tabset>
+      </div>
+      <div class="slds-clearfix">
+        <div class="slds-float_right">
+          <lightning-button variant="brand" label="Create Tournament" onclick={handleClick}></lightning-button>
+        </div>
+      </div>
+    </lightning-card>
+</template>
